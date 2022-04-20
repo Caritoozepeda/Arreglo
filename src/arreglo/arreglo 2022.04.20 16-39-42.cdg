@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="arreglo">
+  <ClassDiagramComponents>
+    <Class name="Arreglo" package="arreglo" visibility="public" xPosition="223.0" yPosition="59.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="sumarLista" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int" name="arregloA"/>
+        </Method>
+        <Method name="buscarMayor" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int" name="arregloB"/>
+        </Method>
+        <Method name="contarVocales" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="palabra"/>
+        </Method>
+        <Method name="contarCaracter" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="caracter"/>
+          <Argument type="char" name="c"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PruebaArreglo" package="arreglo" visibility="public" xPosition="580.0" yPosition="260.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation name="" source="arreglo.PruebaArreglo" target="arreglo.Arreglo" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
